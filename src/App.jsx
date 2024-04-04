@@ -5,14 +5,14 @@ import {
   Routes,
 } from "react-router-dom";
 import { history } from "./history";
-import { Home } from "./routes/Home";
+import Home from "./routes/Home";
 import { CriarTarefa } from "./routes/CriarTarefa";
 import { EditarTarefa } from "./routes/EditarTarefa";
 import { Layout } from "./layout/Layout";
 import { configure } from "axios-hooks";
-import { axios } from "./axios"
+import { axios } from "./axios";
 
-configure({ axios })
+configure({ axios });
 
 export default function App() {
   return (
